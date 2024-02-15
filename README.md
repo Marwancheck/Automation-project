@@ -1,6 +1,6 @@
 # Automation project
 
-The Automation-project is a test automation project built using Python and Selenium WebDriver. It includes automated test scripts for various scenarios on the website https://www.cel.ro. The tests cover functionalities such as user authentication, product search, navigation, and redirection to external sites like YouTube and Facebook.
+The Automation project is a test automation project built using Python and Selenium WebDriver. It includes automated test scripts for various scenarios on the website https://www.cel.ro. The tests cover functionalities such as user authentication, product search, navigation, and redirection to external sites like YouTube and Facebook.
 
 ## Key Features:
 

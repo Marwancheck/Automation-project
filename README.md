@@ -21,7 +21,6 @@ The Automation project is a test automation project built using Python and Selen
 
 1. Clone or download the repository to your local machine.
 2. Install Python 3.x if you haven't already.
-3. Install the required Python packages using pip:
+3. Install the required Python packages using pip
 
-```bash
-pip install -r requirements.txt
+

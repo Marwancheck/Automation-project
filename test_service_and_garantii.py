@@ -27,6 +27,8 @@ class Check_service_garantii(unittest.TestCase):
             print("Correct page title displayed")
         else:
             print("Incorrect page title")
+        assert actual_message == "Service & Garantii", "Incorrect page title displayed"
+
 
 
 

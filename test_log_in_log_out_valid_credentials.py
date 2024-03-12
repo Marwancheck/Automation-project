@@ -31,6 +31,10 @@ class Log_in_out(unittest.TestCase):
         self.chrome.find_element(*self.MAIL).send_keys("ginasie@yahoo.com")
         self.chrome.find_element(*self.PASSWORD).send_keys("CW9WFKNn")
         self.chrome.find_element(*self.CONFIRM_BUTTON).click()
+        self.chrome.find_element(*self.USER_ICON).click()
+        login_account_name = WebDriverWait(self.chrome, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "welcomeMsg")))
+        assert login_account_name.text == "Test Testare", "Logged-in user is not 'Test Testare'"
+        print("Successfully logged in as 'Test Testare'")
 
     def test_log_out(self):
         self.chrome.find_element(*self.USER_ICON).click()
